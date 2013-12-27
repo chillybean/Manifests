@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="chilly"
+           fetch="https://github.com/" />
+>>>>>>>>>>Device Tree
+  <project path="device/htc/msm7x30-common" name="chillybean/android_device_htc_msm7x30-common" remote="chilly" revision="cb44" />
+  <project path="device/common" name="chillybean/android_device_common" remote="chilly" revision="cb44" />
+  <project path="device/htc/vivow" name="chillybean/android_device_htc_vivow" remote="chilly" revision="cb44" />
+  <project path="vendor/htc" name="chillybean/android_vendor_htc" remote="chilly" revision="cb44" />
+  <project path="kernel/htc/msm7x30-3.0" name="chillybean/android_kernel_htc_msm7x30-3.0" remote="chilly" revision="cb44" />
+
+  <project path="hardware/qcom/gps-legacy" name="Evervolv/android_hardware_qcom_gps-legacy" remote="chilly" revision="kitkat"/>
+  <project path="hardware/qcom/audio-legacy" name="Evervolv/android_hardware_qcom_audio-legacy" remote="chilly" revision="kitkat"/>
+  <project path="hardware/qcom/display-legacy" name="chillybean/android_hardware_qcom_display-legacy" remote="chilly" revision="cb44"/>
+  <project path="hardware/qcom/media-legacy" name="chillybean/android_hardware_qcom_media-legacy" remote="chilly" revision="cb44"/>
+  <project path="hardware/qcom/media-caf" name="chillybean/android_hardware_qcom_media-caf" remote="chilly" revision="cb44"/>
+  <project path="hardware/qcom/audio-caf" name="chillybean/android_hardware_qcom_audio-caf" remote="chilly" revision="cb44"/>
+  <project path="frameworks/opt/telephony" name="chillybean/android_frameworks_opt_telephony" remote="chilly" revision="cb44"/>
+
+ </manifest>
